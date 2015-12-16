@@ -15,3 +15,22 @@ Please enter your GitHub password (we do NOT store this):
 
 Your GitHub account was successfully setup!
 ```
+
+## Use
+
+Create Branch.
+```
+$ git reflow start develop
+```
+
+Send Pull Request.
+```
+$ git reflow review
+```
+
+Comment "LGTM" to Pull Request.
+
+Merge Pull Request.
+```
+$ git reflow deliver
+```
